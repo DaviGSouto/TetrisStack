@@ -184,7 +184,7 @@ void acao_troca_multipla() {
     Peca temp;
     int fila_idx;
     
-    printf("🔄 **[Troca Multipla]** Trocando %d pecas...\n", MAX_PILHA);
+    printf(" **[Troca Multipla]** Trocando %d pecas...\n", MAX_PILHA);
 
     for (int i = 0; i < MAX_PILHA; i++) {
         fila_idx = (fila_frente + i) % MAX_FILA; 
